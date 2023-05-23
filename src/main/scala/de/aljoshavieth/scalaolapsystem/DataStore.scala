@@ -4,10 +4,10 @@ import de.aljoshavieth.scalaolapsystem.datastructure._
 
 
 class DataStore(
-				   val customers: Array[Customer],
-				   val dates: Array[Date],
-				   val Lineorders: Array[Lineorder],
-				   val parts: Array[Part],
-				   val suppliers: Array[Supplier]) {
+				   val customers: List[Customer],
+				   val dates: List[Date],
+				   val Lineorders: List[Lineorder],
+				   val parts: List[Part],
+				   val suppliers: List[Supplier]) {
 }
 
