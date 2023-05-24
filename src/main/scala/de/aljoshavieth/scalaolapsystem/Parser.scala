@@ -18,7 +18,7 @@ object Parser {
 			parseFile("part.tbl", PART).map(_.asInstanceOf[Part]),
 			parseFile("supplier.tbl", SUPPLIER).map(_.asInstanceOf[Supplier]))
 
-		println("All data parsed and stored in " + (System.currentTimeMillis() - startTime) + " ms")
+		println("All data parsed and stored in " + (System.currentTimeMillis() - startTime) + " ms\n")
 		dataStore
 	}
 
